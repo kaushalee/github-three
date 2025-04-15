@@ -33,7 +33,7 @@ public class CustomController {
 
         String test = customService.saveCustomer(customDTO);
         return new ResponseEntity<StandedResponse>(
-                new StandedResponse(200, "successs", test),
+                new StandedResponse(200, "successs all", test),
                 HttpStatus.CREATED
         );
 
